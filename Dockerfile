@@ -15,7 +15,6 @@ RUN apk update && \
 	apk del gcc && \
 	apk del g++ && \
 	apk del make && \
-	apk del alsa-lib-dev && \
 	apk del py2-pip
 
 ENTRYPOINT echo "VU Meter is now running!" && \
