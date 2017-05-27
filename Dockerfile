@@ -1,5 +1,5 @@
 # Base off the Docker container with the Python IO library and Alpine.
-FROM ntc-registry.githost.io/nextthingco/chiptainer_python_io:master
+FROM modelb/chiptainer_python_io:master
 
 # Copy the python script which controls the LED's based on mic sound level.
 COPY vu-meter.py /
